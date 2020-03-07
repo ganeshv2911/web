@@ -141,23 +141,22 @@ text-align: center;
 
 /* ResponsiveCSS for mobile */
 
-
 @media (max-width: 900px) {
 
   .main-heading
   {
     font-family: Ubuntu;
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .sub-heading
   {
     font-family: Ubuntu;
-    font-size: 40px;
+    font-size: 30px;
   }
   .main-title
   {
-    padding:10% 5%;
+    padding:5% 3%;
   }
 
   .mybutton{
@@ -165,3 +164,4 @@ text-align: center;
   }
 
 }
+
