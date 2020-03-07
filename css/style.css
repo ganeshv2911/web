@@ -1,1 +1,167 @@
 
+
+/* general Css */
+body{
+  font-family: Montserrat-Black;
+  line-height: 1.5;
+}
+p{
+  font-size: 18px;
+}
+
+.container-fluid
+{
+padding: 3% 15% !important;
+}
+
+/* NavbarCss */
+.navbar-brand
+{
+  font-family: Ubuntu;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#Title {
+  background-color:#ff4c68;
+  color:#fff;
+  text-align: center;
+}
+
+.main-title
+{
+  padding:10%;
+}
+.main-heading
+{
+  font-family: Ubuntu;
+  font-size: 100px;
+}
+
+
+.mybutton{
+  margin: 3%;
+}
+
+
+/* profile Section */
+.ProfileCss
+{
+  background-color: #fff;
+text-align: center;
+}
+
+.profile-text
+{
+  font-size: 25px;
+  text-align: center;
+}
+
+.second-heading
+{
+  font-size: 52px;
+    color:#22A39F;
+    text-align: center;
+}
+
+
+.profile-main-section
+{
+  margin: 5%;
+}
+
+.img-fluid
+{
+  border-radius: 50%;
+
+}
+.details-heading
+{
+  font-size: 25px;
+
+}
+.sub-heading
+{
+  font-family: Ubuntu;
+  font-size: 30px;
+  text-align: center;
+  color:#22A39F;
+}
+
+/* education section */
+
+.Experiencemain
+{
+  background-color:#F3EFE0;
+}
+.third-heading
+{
+    font-size: 43px;
+    color:#22A39F;
+    text-align: center;
+}
+.exp-top
+{
+  margin: 3%;
+  padding: 3%;
+}
+
+.checked
+{
+  color:#22A39F;
+}
+
+/* project section */
+.projects-section
+{
+  background-color:#F3EFE0;
+  text-align: center;
+  padding: 10%;
+  margin: 7%;
+}
+
+.project-text
+{
+  font-size: 100px;
+}
+
+/* contact css */
+.contactcss
+{
+  margin: 3%;
+  padding: 5%;
+}
+
+/* hr attributes */
+.hrstyle
+{
+  width: 50%;
+}
+
+
+/* ResponsiveCSS for mobile */
+
+
+@media (max-width: 900px) {
+
+  .main-heading
+  {
+    font-family: Ubuntu;
+    font-size: 70px;
+  }
+
+  .sub-heading
+  {
+    font-family: Ubuntu;
+    font-size: 40px;
+  }
+  .main-title
+  {
+    padding:10% 5%;
+  }
+
+  .mybutton{
+    margin: 3%;
+  }
+
+}
